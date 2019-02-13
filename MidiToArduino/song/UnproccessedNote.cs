@@ -23,7 +23,7 @@ namespace MidiToArduino.song
 
         public override string ToString()
         {
-            return $"ArdNote{{Note = {note}, Octave = {octave}, Length = {length}, Time = {time}}}";
+            return $"UnproccessedNote{{Note = {note}, Octave = {octave}, Length = {length}, Time = {time}}}";
         }
 
         /*How many half lines is this note above the other note*/

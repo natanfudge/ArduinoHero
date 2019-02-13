@@ -18,7 +18,7 @@ void setup() {
 
   Note* notes = get_Megalovania_easy();
 
-  for (int i = 0; i <500; i++)
+  for (int i = 0; i <5000; i++)
   {
     Note note;
     PROGMEM_readAnything (&notes [i], note);
