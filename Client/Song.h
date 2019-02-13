@@ -8,7 +8,7 @@
 #define SEGMENT_SIZE 50
 
 typedef struct {
-    unsigned long time : 19;
+    unsigned long time : 12;
     unsigned int col : 2;
 }Note;
 
