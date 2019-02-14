@@ -11,7 +11,7 @@
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
             "program": "${workspaceFolder}/MidiToArduino/bin/Debug/netcoreapp2.1/MidiToArduino.dll",
-            "args": ["C:\\Users\\natan\\Desktop\\ArduinoCode\\Megalovania.mid"],
+            "args": ["C:\\Users\\natan\\Desktop\\ArduinoCode\\Client\\midis\\MK_orchestra.mid"],
             "cwd": "${workspaceFolder}/MidiToArduino",
             // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
             "console": "integratedTerminal",

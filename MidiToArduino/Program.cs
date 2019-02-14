@@ -27,8 +27,8 @@ namespace MidiToArduino
             var song = ParseMidi(midiFile);
 
 
-            var normalSong = SongManipulation.MakeNormalArduinoSong(song,midiFile);
-            var easySong = SongManipulation.MakeEasyArduinoSong(song,midiFile);
+            var normalSong = SongManipulation.MakeNormalArduinoSong(song, midiFile);
+            var easySong = SongManipulation.MakeEasyArduinoSong(song, midiFile);
 
             var destination = midiFile.Replace(" ", "_");
             normalSong.WriteTo(Path.GetDirectoryName(destination));
@@ -85,7 +85,9 @@ namespace MidiToArduino
             var notes = midiFile.GetNotes();
 
             return new UnproccesedSong(notes
-                 .Select(note => new UnproccessedNote(note.NoteName, note.Octave, note.Length, note.Time)).ToList());
+                 .Select(note => new UnproccessedNote(note.NoteNumber, note.Length, note.Time, note.Velocity))
+                 .ToList()
+            );
         }
 
 

@@ -1,12 +1,5 @@
-//
-// Created by natan on 2/14/2019.
-//
-
-#include "orchestra.h"
-#include "song.h"
-
-const  Note MK_orchestra_easy[] = {
-{1920, 0},
+const PROGMEM Note MK_orchestra_easy[] = {
+			{1920, 0},
 			{240, 3},
 			{240, 2},
 			{240, 2},
@@ -1237,4 +1230,4 @@ const  Note MK_orchestra_easy[] = {
 			{81, 3}
 };
 
-const Note* get_MK_orchestra_easy(){return MK_orchestra_easy;}
+Note* get_MK_orchestra_easy(){return MK_orchestra_easy;}

@@ -1,4 +1,4 @@
-#include <Arduino.h>  // for type definitions
+//#include <Arduino.h>  // for type definitions
 
 template <typename T> void PROGMEM_readAnything (const T * sce, T& dest)
   {

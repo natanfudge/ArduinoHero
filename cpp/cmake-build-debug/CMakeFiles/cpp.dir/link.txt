@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/cpp.dir/main.cpp.o CMakeFiles/cpp.dir/Util.cpp.o CMakeFiles/cpp.dir/song.cpp.o CMakeFiles/cpp.dir/MK_slow_simple_easy.cpp.o CMakeFiles/cpp.dir/orchestra.cpp.o  -o cpp.exe -Wl,--out-implib,libcpp.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
